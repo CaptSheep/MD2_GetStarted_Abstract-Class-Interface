@@ -17,9 +17,9 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 
-$rectangle = new Rectangle("Rectangle", 10, 20);
+$rectangle = new Rectangle("Rectangle", 10);
 echo $rectangle->show() . "<br>";
-$rectangleResize = new Rectangle("RectangleResize", $rectangle->resize(50), $rectangle->resize(50));
+$rectangleResize = new Rectangle("RectangleResize", $rectangle->resize(50));
 echo "Chu vi hinh chu nhat truoc khi Resize la :" . $rectangle->calculatePerimeter() . "<br>";
 echo "Chu vi hinh chu nhat sau khi Resize la : " . $rectangleResize->calculatePerimeter() . "<br>";
 echo " Dien tich hinh chu nhat truoc khi Resize la : " . $rectangle->calculateArea() . "<br>";
